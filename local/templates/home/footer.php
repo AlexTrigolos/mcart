@@ -68,21 +68,5 @@ IncludeTemplateLangFile(__FILE__);
 </footer>
 
 </div>
-
-<script type="text/javascript" src="/local/templates/home/js/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="/local/templates/home/js/jquery-migrate-3.0.1.min.js"></script>
-<script type="text/javascript" src="/local/templates/home/js/jquery-ui.js"></script>
-<script type="text/javascript" src="/local/templates/home/js/popper.min.js"></script>
-<script type="text/javascript" src="/local/templates/home/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/local/templates/home/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="/local/templates/home/js/mediaelement-and-player.min.js"></script>
-<script type="text/javascript" src="/local/templates/home/js/jquery.stellar.min.js"></script>
-<script type="text/javascript" src="/local/templates/home/js/jquery.countdown.min.js"></script>
-<script type="text/javascript" src="/local/templates/home/js/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" src="/local/templates/home/js/bootstrap-datepicker.min.js"></script>
-<script type="text/javascript" src="/local/templates/home/js/aos.js"></script>
-
-<script type="text/javascript" src="/local/templates/home/js/main.js"></script>
-
 </body>
 </html>
