@@ -1,25 +1,7 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Мебельная компания");
-?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?> <?$APPLICATION->IncludeComponent(
-	"bitrix:news.line",
-	"",
-	Array(
-		"ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"CACHE_GROUPS" => "Y",
-		"CACHE_TIME" => "3600",
-		"CACHE_TYPE" => "A",
-		"DETAIL_URL" => "",
-		"FIELD_CODE" => array("",""),
-		"IBLOCKS" => array("5"),
-		"IBLOCK_TYPE" => "ads",
-		"NEWS_COUNT" => "20",
-		"SORT_BY1" => "ACTIVE_FROM",
-		"SORT_BY2" => "SORT",
-		"SORT_ORDER1" => "DESC",
-		"SORT_ORDER2" => "ASC"
-	)
-);?>
+?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?>
 <div class="py-5">
 	<div class="container">
 		<div class="row">
@@ -403,30 +385,24 @@ $APPLICATION->SetTitle("Мебельная компания");
 	</div>
 </div>
  <?$APPLICATION->IncludeComponent(
-	"bitrix:news.line", 
-	".default", 
-	array(
+	"bitrix:news.line",
+	".default",
+	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"CACHE_GROUPS" => "Y",
 		"CACHE_TIME" => "3600",
 		"CACHE_TYPE" => "A",
+		"COMPONENT_TEMPLATE" => ".default",
 		"DETAIL_URL" => "",
-		"FIELD_CODE" => array(
-			0 => "",
-			1 => "",
-		),
-		"IBLOCKS" => array(
-			0 => "7",
-		),
+		"FIELD_CODE" => array(0=>"",1=>"",),
+		"IBLOCKS" => array(0=>"7",),
 		"IBLOCK_TYPE" => "agents",
 		"NEWS_COUNT" => "20",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",
-		"SORT_ORDER2" => "ASC",
-		"COMPONENT_TEMPLATE" => ".default"
-	),
-	false
+		"SORT_ORDER2" => "ASC"
+	)
 );?>
 <div class="site-section">
 	<div class="container">
