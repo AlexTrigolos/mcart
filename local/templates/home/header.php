@@ -202,7 +202,9 @@ IncludeTemplateLangFile(__FILE__);
     </div>
 
 </div>
-<?$arrFilter = ['PROPERTY_Priority_deal' => 'yes'];
+<?
+global $arrFilter;
+$arrFilter = ['PROPERTY_Priority_deal' => 'yes'];
 $APPLICATION->IncludeComponent(
 	"bitrix:news.list", 
 	".default", 
